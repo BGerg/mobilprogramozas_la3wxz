@@ -1,0 +1,49 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:orientation="vertical"
+    tools:context=".NewMovieActivity">
+
+
+    <!--edit text for our movie name-->
+    <EditText
+        android:id="@+id/idEdtMovieName"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:layout_margin="10dp"
+        android:hint="Add meg a film címét" />
+
+    <!--edit text for our movie description-->
+    <EditText
+        android:id="@+id/idEdtMovieDescription"
+        android:layout_width="match_parent"
+        android:layout_height="146dp"
+        android:layout_margin="10dp"
+        android:hint="Add meg a film leírását" />
+
+    <!--edit text for movie description-->
+    <EditText
+        android:id="@+id/idEdtMovieRecommendation"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:layout_margin="10dp"
+        android:hint="Ki ajánlotta a filmet" />
+
+    <!--button for saving data to room database-->
+    <Button
+        android:id="@+id/idBtnSaveMovie"
+        android:layout_width="168dp"
+        android:layout_height="wrap_content"
+        android:layout_margin="10dp"
+        android:padding="5dp"
+        android:text="Film mentése"
+        android:textAlignment="viewStart"
+        android:textAllCaps="false"
+        android:textAppearance="@style/TextAppearance.AppCompat.Body1"
+        app:icon="@drawable/_78639340_680847576479268_3635669785595937822_n" />
+
+
+</LinearLayout>
